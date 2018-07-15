@@ -1,6 +1,11 @@
 <template>
     <section id="join-frame">
-        <div class="progress"></div>
+        <ul class="progress">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
         <h1 class="title">Create Account</h1>
         <h3 class="sub-title">Glad to see you here!</h3>
         <form id="register" @submit="checkForm" action="" method="post">
@@ -38,5 +43,5 @@ export default {
 }
 </script>
 
-<style lang="sass" src="../../assets/css/home.sass" scoped>
+<style lang="sass" src="../../assets/css/home.sass">
 </style>
